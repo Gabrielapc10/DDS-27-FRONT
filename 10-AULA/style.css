@@ -1,0 +1,50 @@
+/* seleciona todos os elementos  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* seletor por tag */
+body{
+    background-color:rgb(241, 189, 197);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:  20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+
+}
+/* seletor por id */
+#topo{
+    padding: 10px;
+    margin: 15px 0px;
+    border: 10px solid rgb(240, 142, 158);
+    background-color: rgb(101, 206, 101);
+}
+
+/* seletor por class */
+.texto-top{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 25px;
+
+}
+
+/* estiliza os elementos com a class */
+.bloco{
+    background-color:rgb(227, 236, 227);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid rgb(4, 248, 4);
+    border-radius: 10px;
+}
+
+.destaque{
+    background-color: gold;
+}
+
+.texto-destaque{
+    color:darkred;
+    font-weight: bold;
+}
+/* #ede9fe */
