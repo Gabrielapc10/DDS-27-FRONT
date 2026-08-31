@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+}
+
+#titulo{
+    background-color:gainsboro;
+    color:white;
+    padding: 50px;
+    
+}
+
+.sessao{
+    border:30px solid red;
+    background-color: green;
+}
+p{
+    margin-top: 20px;
+    
+    
+}
+
+footer{
+    background-color:grey;
+    color:white;
+    padding: 60px;
+}
