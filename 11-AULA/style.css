@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+
+body{
+    background-color: wheat;
+    height: 2000px;
+}
+
+.pai{
+    height: 200px;
+    width: 200px;
+}
+
+.filho{
+    height: 50px;
+    width: 50px;
+}
+
+/* tipo estatico */
+#pai-estatico{
+    background-color: pink;
+    position: static;
+}
+
+#fi-estatico{
+    background-color: lightblue;
+}
+
+/* tipo fixo */
+#pai-fixo{
+    background-color: blueviolet;
+    position: fixed;
+    /* top: 50px;
+    left: 100px; */
+    bottom: 10px;
+    right: 30px;
+    z-index: -1;
+}
+
+#fi-fixo{
+    background-color:plum;
+}
+
+/* tipo sticky */
+#pai-grudado{
+    background-color: green;
+    height: 1200px;
+    width: 1000px;
+}
+
+#fi-grudado{
+    background-color: orchid;
+    position: sticky;
+    top: 10px;
+    left: 15px;
+}
+
+/* tipo relativo */
+#pai-relativo{
+    background-color:coral ;
+
+}
+
+#fi-relativo{
+    background-color:darkred;
+    position: relative;
+    /* top: 15px;
+    left: 15px; */
+    bottom: 20px;
+    right: 10px;
+}
+
+/* tipos absolutos */
+
+/* absolute com pai estatico */
+#pai-absoluto{
+    background-color: lightcoral;
+    position: static;
+}
+
+#fi-absoluto{
+    background-color:darkslategray;
+    position: absolute;
+    left: 500px;
+}
+
+/* absolute com pai nao estatico */
+#pai-abs-rel{
+    background-color: blue;
+    position: relative;
+    top: 50px;
+}
+#fi-abs-rel{
+    background-color: yellowgreen;
+    position: absolute;
+    top: 100px;
+}
