@@ -154,3 +154,29 @@ input:disabled{
     color: gold;
     font-size: 20px;
 }
+
+/* pseudo elementos */
+/* insere items antes dos elemetos */
+h2::before{
+    content: " 🐾 ";
+}
+/* insere items depois dos elementos */
+h2::after{
+    content: "👾";
+}
+/* etiliza o texto dentro dos inputs */
+input::placeholder{
+    color:yellow;
+}
+
+/* estiliza o texto selecioado */
+::selection{
+    background-color: yellow;
+    color: green;
+}
+
+/* estiliza os marcadores de texto */
+.lista-marker li::marker{
+    color: purple;
+    font-size: 20px;
+}
