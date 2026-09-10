@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* importacao de fontes do google */
+
+/* via url */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ 
+body{
+    background-color:azure;
+    margin: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ /* usando fonte via url */
+h1{
+    font-weight: 200;
+}
+
+h2{
+    font-weight: 600;
+}
+
+h1, h2{
+    font-family:  "Playfair Display", serif;
+    color: lightpink;
+}
+
+/* estilizacao via class */
+.bloco{
+    background-color:rgb(248, 221, 226);
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom:20px;
+    border-radius: 10px; 
+}
+
+/* importar fontes do projeto  */
+@font-face {
+    font-family: "Fira";
+    src: url(./Fonts/Fira.ttf);
+}
+/* usando a fonte do projeto */
+p{
+    font-family: "Fira";
+    font-size: 15px;
+    color:blueviolet;
+}
+
+/* pseudos classes */
+a{
+    color: orange;
+}
+/* links nao visitados */
+a:link{
+    color: green;
+}
+/* links ja visitados */
+a:visited{
+    color: blueviolet;
+}
+/* link que esta aivo, que esta clicado  */
+a:active{
+    color: cyan;
+}
+/* quando passa o mouse em cima */
+a:hover{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* quando passa o mouse em cima */
+button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+/* botao que esta ativo,que esta clicando */
+button:active{
+    transform: scaleX(1);
+    transform: scaleY(1.7);
+    transform: rotate(360deg);
+    transition: 4s;
+}
+
+/* input quando esta selecionado     */
+input:focus{
+    outline: none;
+    border: 2px solid goldenrod;
+    background-color: azure;
+}
+
+/* input quendo e obrigatorio */
+input:required{
+    border: 2px solid red;
+}
+
+/* quando o preenchimento e valido */
+input:valid{
+    background-color:lightskyblue;
+}
+/* quando o preenchimento nao e valido */
+input:invalid{
+    background-color:hotpink;
+}
+/* quado o chekbox esta marcado */
+input:checked{
+    accent-color: red;
+}
+/* esiliza os inputs desabilitados */
+input:disabled{
+    background-color: azure;
+    color: brown;
+}
+
+/* seleciona o primeiro filho, vulgo primogenito */
+.lista-exemplo li:first-child{
+    font-weight: bold;
+ color: green;
+}
+
+/* seleciona o ultimo filho,vulgo o preferido */
+.lista-exemplo li:last-child{
+    font-weight: bold;
+    background-image:linear-gradient(pink,rgb(170, 27, 151),purple);
+}
+
+/* seleciona o ultimo filho,vulgo o preferido */
+.lista-exemplo li:nth-child(3){
+    background-color: gold;
+}
+
+/* seleciona espaco sem conteudo */
+.caixa-vazia:empty{
+    width: 200px;
+    height: 150px;
+    background-color: purple;
+}
+
+/* sleciona a primeir letra de um texto */
+.texto-especial:first-letter {
+    color: brown;
+    font-size: 50px;
+}
+/* seleciona a primeira linha de um texto */
+.texto-especial:first-line{
+    color: gold;
+    font-size: 20px;
+}
