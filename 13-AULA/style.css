@@ -1,0 +1,17 @@
+body{
+    background-color: lightpink;
+}
+
+
+.icones{
+    font-size: 100px;
+    color: darkviolet;
+    transition: 3s;
+}
+
+.icones:hover{
+    color: white;
+    background-color: purple;
+    font-size: 200px;
+    transition: 3s;
+}
