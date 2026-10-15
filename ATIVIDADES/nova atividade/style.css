@@ -39,3 +39,14 @@ h1{
     font-size: 12px;
     border: solid 2px black;
 }
+ /* .row2 {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+} */
+
+.col2 {
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+}
